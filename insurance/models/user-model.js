@@ -67,6 +67,16 @@ const getAllUsers = async () => {
     }
 }
 
+// const getUserById = async (id) => {
+//     try{
+//         const [users] = 
+//         await db.query('select * from users where id = ?', [id]);//query untuk mengambil data user berdasarkan id
+//         return users;
+//     }catch (error){
+//         console.log(error);
+//     }   
+// }
+
 const getUserById = async (id) => {
     try {
         // Ambil data user berdasarkan ID
