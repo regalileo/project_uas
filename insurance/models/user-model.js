@@ -67,6 +67,7 @@ const getAllUsers = async () => {
     }
 }
 
+//endpoint getUserById sebelum implementasi api key publik
 // const getUserById = async (id) => {
 //     try{
 //         const [users] = 
@@ -77,6 +78,7 @@ const getAllUsers = async () => {
 //     }   
 // }
 
+//endpoint getUserById sebelum implementasi api key publik
 const getUserById = async (id) => {
     try {
         // Ambil data user berdasarkan ID
